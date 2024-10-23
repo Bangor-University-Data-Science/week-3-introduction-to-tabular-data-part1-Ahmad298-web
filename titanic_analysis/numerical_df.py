@@ -15,7 +15,7 @@ def get_numerical_df(df, numerical_features):
     
     return numerical_df
 
-if __main__ == "__main__":
+if __name__ == "__main__":
     filepath = "data/titanic.csv"
     titanic_data = pd.read_csv(filepath)
     numerical_features = ['Age', 'Fare']
