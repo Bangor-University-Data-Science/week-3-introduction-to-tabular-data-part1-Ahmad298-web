@@ -15,7 +15,7 @@ def create_summary_table(df):
     
     return summary_df
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     filepath = "data/titanic.csv"  
     titanic_data = pd.read_csv(filepath)
     summary_table = create_summary_table(titanic_data)

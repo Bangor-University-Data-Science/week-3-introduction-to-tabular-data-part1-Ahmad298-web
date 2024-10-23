@@ -4,8 +4,7 @@ def display_unique_values(df, categorical_features):
     unique_values = {}
     
     for feature in categorical_features:
-    
-        unique_values[feature] = df[feature].unique().tolist()
+       unique_values[feature] = df[feature].unique().tolist()
     
     
     return unique_values
